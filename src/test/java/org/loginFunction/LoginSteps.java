@@ -1,18 +1,15 @@
 package org.loginFunction;
 
 import java.io.IOException;
+import java.time.Duration;
 
 import org.fbPom.FacebookPom;
 import org.helper.BaseClass;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LoginSteps extends BaseClass {
 
@@ -20,10 +17,10 @@ public class LoginSteps extends BaseClass {
 
 	@Given("User has to be in login page")
 	public void user_has_to_be_in_login_page() {
-		openChromeBrowser();
 		driver.get("https://www.facebook.com/");
 
 	}
+	
 	@When("User has to enter  {string}and{string}")
 	public void user_has_to_enter_and(String a1, String a2) {
 

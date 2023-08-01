@@ -1,7 +1,7 @@
 Feature: To validate login functionality
 
   Background: 
-    Given: User has to be in fb login page.
+    Given User has to be in fb login page.
 
 
   Scenario: To validate login using username and password

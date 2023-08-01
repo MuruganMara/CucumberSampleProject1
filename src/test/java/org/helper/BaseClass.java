@@ -14,6 +14,7 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.Set;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.DateUtil;
 import org.apache.poi.ss.usermodel.Row;
@@ -23,6 +24,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptException;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -309,6 +312,16 @@ public class BaseClass {
 			
 			System.out.println(output);
 
+		}
+		
+		public static void toTakeScreenshot(String imgname) throws IOException {
+         TakesScreenshot ts = (TakesScreenshot)driver;
+         File src = ts.getScreenshotAs(OutputType.FILE);
+         File des = new File("C:\\jdk\\New folder\\CucumberAutomation\\FailedTestCases"+ imgname+".png");
+         FileUtils.copyFile(src, des);
+			
+			
+			
 		}
 
 		public static void toUpdateExcel(int rownum, int coloumn, String value) throws IOException {

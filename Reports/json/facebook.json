@@ -1,0 +1,208 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User has to be in fb login page.",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-18T07:11:18.944Z",
+        "line": 7,
+        "name": "To validate login using username and password",
+        "description": "",
+        "id": "to-validate-login-functionality;to-validate-login-using-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User has to enter  valid username and invalidpassword",
+            "match": {
+              "location": "LoginSteps.user_has_to_enter_valid_username_and_invalidpassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User has to click login button",
+            "match": {
+              "location": "LoginSteps.user_has_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11600,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User have to be in invalid credential page",
+            "match": {
+              "location": "LoginSteps.user_have_to_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User has to be in fb login page.",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-18T07:11:18.966Z",
+        "line": 12,
+        "name": "To validate login using username and password",
+        "description": "",
+        "id": "to-validate-login-functionality;to-validate-login-using-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "User has to enter  invalidusername and valid password",
+            "match": {
+              "location": "LoginSteps.user_has_to_enter_invalidusername_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8100,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User has to click login button",
+            "match": {
+              "location": "LoginSteps.user_has_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7600,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "User have to be in invalid credential page",
+            "match": {
+              "location": "LoginSteps.user_have_to_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User has to be in fb login page.",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-18T07:11:18.968Z",
+        "line": 17,
+        "name": "To validate login using username and password",
+        "description": "",
+        "id": "to-validate-login-functionality;to-validate-login-using-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9600,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User has to enter  invalidusername and invalidpassword",
+            "match": {
+              "location": "LoginSteps.user_has_to_enter_invalidusername_and_invalidpassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11900,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User has to click login button",
+            "match": {
+              "location": "LoginSteps.user_has_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9200,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User have to be in invalid credential page",
+            "match": {
+              "location": "LoginSteps.user_have_to_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate login functionality",
+    "description": "",
+    "id": "to-validate-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/FirstProject.feature",
+    "tags": []
+  }
+]
